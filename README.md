@@ -80,3 +80,11 @@ The variables are the following:
 - **ca:** number of major vessels (0-3) colored by flourosopy
 - **thal:** 3 = normal; 6 = fixed defect; 7 = reversable defect
 
+### Caveat
+> This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them. In particular, the Cleveland database is the only one that has been used by ML researchers to
+this date. The "goal" field refers to the presence of heart disease in the patient. It is integer valued from 0 (no presence) to 4. 
+
+This whole description is very messy. Something is off with the target.
+What we actually care about is `cp`(chest pain) with value from 0 (no symptom) to 4.
+
+The dataset is also a bit messy, we should use instead the dataset in [the UCI portal](https://archive.ics.uci.edu/ml/datasets/heart+Disease).
