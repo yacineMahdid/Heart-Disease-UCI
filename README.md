@@ -3,6 +3,14 @@ Heart Disease EDA
 
 Simple project where we do a exploratory data analysis on classification data from a [heart disease dataset](https://www.kaggle.com/ronitf/heart-disease-uci)
 
+This is my first time using the [cookiecutter](https://drivendata.github.io/cookiecutter-data-science/) for datascience so I'm learning at the same time what the structure of the thing is.
+
+## Setup
+Use a virtualenvironment in order to run the analysis.
+- `python3 -m venv env`
+- `source venv/bin/activate`
+- `pip install -r requirements.txt`
+
 Project Organization
 ------------
 
