@@ -63,7 +63,7 @@ Project Organization
 --------
 
 ## Dataset
-The dataset comes from [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci) and can be download as a zip file directly.
+The dataset `heart_kaggle.csv` comes from [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci) and can be download as a zip file directly.
 
 The variables are the following: 
 - **age:** age
