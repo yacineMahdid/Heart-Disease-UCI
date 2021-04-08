@@ -75,7 +75,7 @@ The variables are the following:
 - **restecg:** resting electrocardiographic results (values 0,1,2)
 - **thalach:** maximum heart rate achieved
 - **exang:** exercise induced angina
-- **oldpeak:** oldpeak = ST depression induced by exercise relative to rest
+- **oldpeak:** oldpeak = ST depression induced by exercise relative to rest (?)
 - **slope:** the slope of the peak exercise ST segment
 - **ca:** number of major vessels (0-3) colored by flourosopy
 - **thal:** 3 = normal; 6 = fixed defect; 7 = reversable defect
@@ -88,3 +88,5 @@ This whole description is very messy. Something is off with the target.
 What we actually care about is `cp`(chest pain) with value from 0 (no symptom) to 4.
 
 The dataset is also a bit messy, we should use instead the dataset in [the UCI portal](https://archive.ics.uci.edu/ml/datasets/heart+Disease).
+
+There are a few typos in the documentation of the dataset. It's not problematic in itself, but this flag me that the author of that Kaggle dataset might be a bit sloppy. This coupled with the rant from [this thread](https://www.kaggle.com/ronitf/heart-disease-uci/discussion/105877) show that they might have over-pre-processed the dataset without properly documenting their bias.
