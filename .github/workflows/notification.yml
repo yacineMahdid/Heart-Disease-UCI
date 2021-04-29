@@ -1,0 +1,19 @@
+name: discord message
+on: 
+  # Triger this workflow when there is a push on the master branch
+  push:
+    branches:
+      - master
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Send notification to general channel
+      uses: appleboy/discord-action@master
+      with:
+        webhook_id: ${{ secrets.WEBHOOK_ID }}
+        webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+        args: A new merge to the master branch of the Heart Disease UCI project as been done, come check it out at https://github.com/yacineMahdid/Heart-Disease-UCI/
