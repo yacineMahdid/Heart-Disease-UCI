@@ -1,4 +1,4 @@
-Heart Disease EDA
+Heart Disease EDA 
 ==============================
 
 Simple project where we do a exploratory data analysis on classification data from a [heart disease dataset](https://www.kaggle.com/ronitf/heart-disease-uci)
