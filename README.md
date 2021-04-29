@@ -63,7 +63,7 @@ Project Organization
 --------
 
 ## Dataset
-The dataset comes from [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci) and can be download as a zip file directly.
+The dataset `heart_kaggle.csv` comes from [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci) and can be download as a zip file directly.
 
 The variables are the following: 
 - **age:** age
@@ -75,7 +75,7 @@ The variables are the following:
 - **restecg:** resting electrocardiographic results (values 0,1,2)
 - **thalach:** maximum heart rate achieved
 - **exang:** exercise induced angina
-- **oldpeak:** oldpeak = ST depression induced by exercise relative to rest
+- **oldpeak:** oldpeak = ST depression induced by exercise relative to rest (?)
 - **slope:** the slope of the peak exercise ST segment
 - **ca:** number of major vessels (0-3) colored by flourosopy
 - **thal:** 3 = normal; 6 = fixed defect; 7 = reversable defect
@@ -88,3 +88,11 @@ This whole description is very messy. Something is off with the target.
 What we actually care about is `cp`(chest pain) with value from 0 (no symptom) to 4.
 
 The dataset is also a bit messy, we should use instead the dataset in [the UCI portal](https://archive.ics.uci.edu/ml/datasets/heart+Disease).
+
+There are a few typos in the documentation of the dataset. It's not problematic in itself, but this flag me that the author of that Kaggle dataset might be a bit sloppy. This coupled with the rant from [this thread](https://www.kaggle.com/ronitf/heart-disease-uci/discussion/105877) show that they might have over-pre-processed the dataset without properly documenting their bias.
+
+They really messed up the description, it's not even correct how they are labelling the target variable jfc. I reported this dataset so that they can fix the description. I'm trusting the guy that made the thread above however (he has ~80 upvotes), I should however check the whole thing myself with the real dataset.
+
+my god the dataset is a dumpster fire, I need to thread carefully with the interpretation. wtf is that. Not even sure it's worthwhile to continue with the Kaggle dataset -_-.
+
+I should maybe read the paper with which this dataset comes from, if there is any, or the one from one of the many paper that are based upon this dataset.
