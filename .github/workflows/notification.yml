@@ -16,4 +16,4 @@ jobs:
       with:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
-        args: A new merge to the master branch of the Heart Disease UCI project as been done, come check it out at https://github.com/yacineMahdid/Heart-Disease-UCI/
+        args: 📢 A new merge to the master branch of the Heart Disease UCI project as been done, come check it out at https://github.com/yacineMahdid/Heart-Disease-UCI/ 📢
