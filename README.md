@@ -94,5 +94,5 @@ There are a few typos in the documentation of the dataset. It's not problematic 
 They really messed up the description, it's not even correct how they are labelling the target variable jfc. I reported this dataset so that they can fix the description. I'm trusting the guy that made the thread above however (he has ~80 upvotes), I should however check the whole thing myself with the real dataset.
 
 my god the dataset is a dumpster fire, I need to thread carefully with the interpretation. wtf is that. Not even sure it's worthwhile to continue with the Kaggle dataset -_-.
-
+ 
 I should maybe read the paper with which this dataset comes from, if there is any, or the one from one of the many paper that are based upon this dataset.
